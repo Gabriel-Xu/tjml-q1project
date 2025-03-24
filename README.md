@@ -9,13 +9,11 @@
   - Preprocessing (data cleaning, feature engineering)
   - Attribute selection (e.g., CorrelationAttributeEval, ReliefF)
   - Classifier models (e.g., Naive Bayes, RandomForest)
-- **Best Model**: CfsSubsetEval with Naive Bayes (85.05% accuracy, balanced F-measure).
 
 ## Files
 - `main.py`: Python script for initial data preprocessing (cleaning, creating a `class` column, and saving to `new_dataset.csv`).
 - `cpd-crash-incidents.csv`: Original dataset (not included, download from the link above).
-- `new_dataset.csv`: Preprocessed dataset output from `main.py`.
-- `README.md`: This file.
+- `finals.csv`: Preprocessed dataset output from applying WEKA preprocessing to `new_dataset.csv`.
 
 ## How to Run
 1. Download the dataset from [data.gov](https://catalog.data.gov/dataset/crash-data).
@@ -23,4 +21,4 @@
 3. Run the script:
    ```bash
    python main.py
-4. Upload new dataset into Weka. Follow instructions on report.
+4. Follow WEKA instructions in the report
