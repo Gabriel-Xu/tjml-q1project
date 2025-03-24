@@ -2,8 +2,6 @@
 
 # Crash Severity Prediction
 
-This repository contains a machine learning project to predict crash severity (crash, injury, or fatalities) using the "Crash Data" dataset from the Town of Cary, North Carolina. The project was completed as part of Dr. Yilmaz's Period 5 Machine Learning class by Gabriel Xu and Andrew Chen.
-
 ## Project Overview
 - **Dataset**: "Crash Data" from [data.gov](https://catalog.data.gov/dataset/crash-data) with 24,241 instances and 42 attributes.
 - **Goal**: Classify crash severity based on conditions like weather, road features, and vehicle types.
