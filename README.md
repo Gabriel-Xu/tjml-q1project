@@ -23,3 +23,4 @@
 3. Run the script:
    ```bash
    python main.py
+4. Upload new dataset into Weka. Follow instructions on report.
